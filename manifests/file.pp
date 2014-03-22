@@ -16,7 +16,7 @@ define patch::file (
   $diff_source = undef,
   $prefix = undef,
   $path = ['/usr/local/bin', '/usr/bin', '/bin'],
-  $cwd = '/',
+  $cwd = '/'
 ) {
   validate_absolute_path($target)
 
