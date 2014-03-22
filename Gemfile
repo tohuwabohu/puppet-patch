@@ -14,4 +14,3 @@ else
 end
 
 # vim:ft=ruby
-
