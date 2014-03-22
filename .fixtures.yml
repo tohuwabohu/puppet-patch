@@ -1,0 +1,10 @@
+fixtures:
+  repositories:
+    puppi:
+      repo: "git@github.com:example42/puppi.git"
+      ref: "v2.1.9"
+    stdlib:
+      repo: "git://github.com/puppetlabs/puppetlabs-stdlib"
+      ref: "4.1.0"
+  symlinks:
+    patch: "#{source_dir}"
