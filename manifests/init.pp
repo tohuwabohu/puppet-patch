@@ -20,7 +20,7 @@
 #
 class patch (
   $ensure = params_lookup('ensure'),
-  $package = params_lookup('package'),
+  $package = params_lookup('package')
 ) inherits patch::params {
 
   $patch_dir = "${::puppet_vardir}/patch"
