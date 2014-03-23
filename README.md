@@ -6,7 +6,7 @@ Manage and apply diff files on original files using the patch command.
 
 ##Usage
 
-* Install patch with package settings; this itself doesn't do much. To apply patches, you have to use patch::file.
+* Install patch with package settings; this itself doesn't do much. To apply patches, you have to use `patch::file`.
 ```
 class { 'patch': }
 ```
