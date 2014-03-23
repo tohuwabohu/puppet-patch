@@ -33,7 +33,6 @@ patch::file { 'first-patch':
   prefix      => '0001',
   diff_source => '/path/to/0001.diff',
 }
-
 patch::file { 'second-patch':
   target      => $target,
   prefix      => '0002',
