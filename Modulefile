@@ -8,4 +8,3 @@ summary 'Patch files using diffs'
 description 'Manage and apply diff files on original files using the patch command'
 
 dependency  'puppetlabs/stdlib', '4.x'
-dependency  'example42/puppi', '2.x'

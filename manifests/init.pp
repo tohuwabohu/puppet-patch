@@ -19,8 +19,8 @@
 # Copyright 2014 Martin Meinhold, unless otherwise noted.
 #
 class patch (
-  $ensure = params_lookup('ensure'),
-  $package = params_lookup('package'),
+  $ensure  = $patch::params::ensure,
+  $package = $patch::params::package,
 ) inherits patch::params {
 
   $patch_dir = "${::puppet_vardir}/patch"
