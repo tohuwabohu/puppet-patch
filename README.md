@@ -47,4 +47,4 @@ The module has been tested on the following operating systems. Testing and patch
 
 * Debian Linux 6.0 (Squeeze)
 
-[![Build Status](https://travis-ci.org/tohuwabohu/tohuwabohu-patch.png?branch=master)](https://travis-ci.org/tohuwabohu/tohuwabohu-patch)
+[![Build Status](https://travis-ci.org/tohuwabohu/puppet-patch.png?branch=master)](https://travis-ci.org/tohuwabohu/puppet-patch)
