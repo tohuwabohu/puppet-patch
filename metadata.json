@@ -1,0 +1,23 @@
+{
+    "name": "tohuwabohu-patch",
+    "version": "1.0.0",
+    "author": "Martin Meinhold",
+    "license": "Apache License, Version 2.0",
+    "summary": "Patch files using diffs",
+    "source": "https://github.com/tohuwabohu/puppet-patch.git",
+    "project_page": "https://github.com/tohuwabohu/puppet-patch",
+    "issues_url": "https://github.com/tohuwabohu/puppet-patch/issues",
+    "tags": [ "diff", "patch" ],
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "Debian",
+            "operatingsystemrelease": [ "6.0" ]
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "puppetlabs/stdlib",
+            "version_requirement": "4.x"
+        }
+    ]
+}
