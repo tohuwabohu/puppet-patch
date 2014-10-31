@@ -40,7 +40,7 @@ define patch::file (
 
   exec { "apply-${patch_name}.patch":
     command => "patch --forward ${target} ${patch_file}",
-    onlyif  => "patch --forward --dry-run ${target} ${patch_file}",
+    unless  => "patch --reverse --dry-run ${target} ${patch_file}",
     path    => $path,
     cwd     => $cwd,
     require => File[$patch_file],
