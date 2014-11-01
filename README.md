@@ -48,3 +48,7 @@ The module has been tested on the following operating systems. Testing and patch
 * Debian Linux 6.0 (Squeeze)
 
 [![Build Status](https://travis-ci.org/tohuwabohu/puppet-patch.png?branch=master)](https://travis-ci.org/tohuwabohu/puppet-patch)
+
+##Contributors
+
+The list of contributors can be found at: https://github.com/tohuwabohu/puppet-patch/graphs/contributors
