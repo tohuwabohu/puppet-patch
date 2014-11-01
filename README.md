@@ -27,7 +27,7 @@ patch::file { '/path/to/file':
 
 * Apply two diff files in a particular order on the same original file
 ```
-target = '/path/to/file'
+$target = '/path/to/file'
 patch::file { 'first-patch':
   target      => $target,
   prefix      => '0001',
