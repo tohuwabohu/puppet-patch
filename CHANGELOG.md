@@ -1,4 +1,4 @@
-##2015-05-15 - Release 1.2.0
+##2015-05-10 - Release 1.2.0
 ###Summary
 
 Add ability to apply a patch to a directory ([pull request](https://github.com/tohuwabohu/puppet-patch/pull/2)).
