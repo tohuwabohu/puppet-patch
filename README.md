@@ -41,6 +41,14 @@ patch::file { 'second-patch':
 }
 ```
 
+* Apply diff to a directory
+```
+patch::directory { '/path/to/target/directory':
+  diff_source => '/path/to/diff',
+  strip => 2,
+}
+```
+
 ##Limitations
 
 The module has been tested on the following operating systems. Testing and patches for other platforms are welcome.
