@@ -1,5 +1,3 @@
-.idea
-*.iml
 /spec/fixtures/manifests
 /spec/fixtures/modules
 
