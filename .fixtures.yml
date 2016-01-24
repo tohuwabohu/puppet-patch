@@ -2,6 +2,6 @@ fixtures:
   forge_modules:
     stdlib:
       repo: "puppetlabs/stdlib"
-      ref: "4.1.0"
+      ref: "4.11.0"
   symlinks:
     patch: "#{source_dir}"
