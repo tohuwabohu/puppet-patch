@@ -1,7 +1,8 @@
 ---
 sudo: false
 language: ruby
-bundler_args: --without development
+cache: bundler
+bundler_args: --without development system_tests
 before_install: rm Gemfile.lock || true
 script: bundle exec rake test SPEC_OPTS='--format documentation'
 rvm:
