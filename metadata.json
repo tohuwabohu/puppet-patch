@@ -1,39 +1,42 @@
 {
-    "name": "tohuwabohu-patch",
-    "version": "1.2.1",
-    "author": "Martin Meinhold",
-    "license": "Apache License, Version 2.0",
-    "summary": "Patch files using diffs",
-    "source": "https://github.com/tohuwabohu/puppet-patch.git",
-    "project_page": "https://github.com/tohuwabohu/puppet-patch",
-    "issues_url": "https://github.com/tohuwabohu/puppet-patch/issues",
-    "tags": [ "diff", "patch" ],
-    "operatingsystem_support": [
-      {
-        "operatingsystem": "Debian",
-        "operatingsystemrelease": [
-          "7",
-          "8"
-        ]
-      },
-      {
-        "operatingsystem": "Ubuntu",
-        "operatingsystemrelease": [
-          "12.04",
-          "14.04"
-        ]
-      }
-    ],
-    "requirements": [
-        {
-            "name": "puppet",
-            "version_requirement": ">=3.0.0 <5.0.0"
-        }
-    ],
-    "dependencies": [
-        {
-            "name": "puppetlabs/stdlib",
-            "version_requirement": "4.x"
-        }
-    ]
+  "name": "tohuwabohu-patch",
+  "version": "1.2.2",
+  "author": "Martin Meinhold",
+  "license": "Apache License, Version 2.0",
+  "summary": "Patch files using diffs",
+  "source": "https://github.com/tohuwabohu/puppet-patch.git",
+  "project_page": "https://github.com/tohuwabohu/puppet-patch",
+  "issues_url": "https://github.com/tohuwabohu/puppet-patch/issues",
+  "tags": [
+    "diff",
+    "patch"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=3.0.0 <5.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "4.x"
+    }
+  ]
 }
