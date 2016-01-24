@@ -30,10 +30,10 @@ class patch (
   }
 
   file { $patch_dir:
-    ensure  => $patch_dir_ensure,
-    owner   => 'root',
-    group   => 'root',
-    mode    => '0640',
+    ensure => $patch_dir_ensure,
+    owner  => 'root',
+    group  => 'root',
+    mode   => '0640',
   }
 
   package { $package: ensure => $ensure }
