@@ -9,10 +9,20 @@
     "issues_url": "https://github.com/tohuwabohu/puppet-patch/issues",
     "tags": [ "diff", "patch" ],
     "operatingsystem_support": [
-        {
-            "operatingsystem": "Debian",
-            "operatingsystemrelease": [ "6.0" ]
-        }
+      {
+        "operatingsystem": "Debian",
+        "operatingsystemrelease": [
+          "7",
+          "8"
+        ]
+      },
+      {
+        "operatingsystem": "Ubuntu",
+        "operatingsystemrelease": [
+          "12.04",
+          "14.04"
+        ]
+      }
     ],
     "dependencies": [
         {
