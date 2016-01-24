@@ -1,3 +1,12 @@
+##2016-01-24 - Release 1.2.1
+###Summary
+
+This is just a maintenance release.
+
+* Bump gem dependencies to the latest version
+* Update travis test matrix and add support for Puppet 4
+* Add very basic acceptance tests
+
 ##2015-05-10 - Release 1.2.0
 ###Summary
 

@@ -1,5 +1,4 @@
-.idea
-*.iml
+/log
 /spec/fixtures/manifests
 /spec/fixtures/modules
 
