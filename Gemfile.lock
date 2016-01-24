@@ -45,7 +45,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  puppet (~> 3.8.3)
+  puppet (~> 3.8.5)
   puppet-lint (~> 1.1.0)
   puppet-syntax (~> 2.0.0)
   puppetlabs_spec_helper (~> 1.0.1)
