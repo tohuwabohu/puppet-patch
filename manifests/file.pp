@@ -38,7 +38,7 @@ define patch::file (
     mode    => '0640',
   }
 
-  exec { "apply-${patch_name}.patch":
+  exec { "apply-${patch_name}${real_prefix}.patch":
     command => "patch --forward ${target} ${patch_file}",
     unless  => "patch --reverse --dry-run ${target} ${patch_file}",
     path    => $path,
