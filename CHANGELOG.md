@@ -1,3 +1,8 @@
+##2016-03-09 - Release 1.2.2
+###Summary
+
+Prefix only works if there are different title for the Exec ressource (#4).
+
 ##2016-01-24 - Release 1.2.1
 ###Summary
 
@@ -10,7 +15,7 @@ This is just a maintenance release.
 ##2015-05-10 - Release 1.2.0
 ###Summary
 
-Add ability to apply a patch to a directory ([pull request](https://github.com/tohuwabohu/puppet-patch/pull/2)).
+Add ability to apply a patch to a directory (#2).
 
 ##2014-11-01 - Release 1.1.0
 ###Summary
