@@ -7,7 +7,6 @@ HOSTS:
     image: debian:8
     docker_preserve_image: true
     docker_image_commands:
-      - 'rm /usr/sbin/policy-rc.d'  # remove weird script file preventing openntpd from starting up
       - 'apt-get update'
       - 'apt-get -qqy install wget'
 

@@ -9,8 +9,6 @@ HOSTS:
     # The default 'service ssh start' is not working on Ubuntu 12.04 because upstart has been disabled
     # see https://github.com/tianon/docker-brew-ubuntu-core/issues/4#event-142513085
     docker_cmd: '["sh", "-c", "/usr/sbin/sshd -D"]'
-    docker_image_commands:
-      - 'rm /usr/sbin/policy-rc.d'  # remove weird script file preventing openntpd from starting up
 
 CONFIG:
   type: foss
