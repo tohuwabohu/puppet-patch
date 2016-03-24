@@ -12,6 +12,6 @@ rvm:
 env:
   matrix:
     - PUPPET_VERSION="~> 3.8.0"
-    - PUPPET_VERSION="~> 4.3.0"
+    - PUPPET_VERSION="~> 4.4.0"
 matrix:
   fast_finish: true
