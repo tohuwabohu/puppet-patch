@@ -16,4 +16,6 @@ class patch::params {
   $package = $::operatingsystem ? {
     default => 'patch',
   }
+
+  $manage_package = true
 }

@@ -21,6 +21,7 @@
 class patch (
   $ensure  = $patch::params::ensure,
   $package = $patch::params::package,
+  $manage_package = $patch::params::manage_package,
 ) inherits patch::params {
 
   $patch_dir = "${::puppet_vardir}/patch"
@@ -36,5 +37,7 @@ class patch (
     mode   => '0640',
   }
 
-  package { $package: ensure => $ensure }
+  if $manage_package {
+    package { $package: ensure => $ensure }
+  }
 }
