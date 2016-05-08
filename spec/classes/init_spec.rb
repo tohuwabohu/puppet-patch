@@ -23,4 +23,10 @@ describe 'patch' do
     it { should contain_package('patch').with_ensure('absent') }
     it { should contain_file('/var/lib/puppet/patch').with_ensure('absent') }
   end
+
+  describe 'with manage_package false' do
+    let(:params) { {:manage_package => false} }
+
+    it { should_not contain_package('patch') }
+  end 
 end
