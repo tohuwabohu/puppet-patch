@@ -1,3 +1,8 @@
+##2016-05-08 - Release 1.3.0
+###Summary
+
+Add `manage_package` boolean ([#5](https://github.com/tohuwabohu/puppet-patch/pull/5)).
+
 ##2016-03-09 - Release 1.2.2
 ###Summary
 
