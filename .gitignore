@@ -5,3 +5,4 @@ junit/**
 log/**
 spec/fixtures/**
 vendor/**
+Gemfile.lock
