@@ -5,6 +5,7 @@ group :development, :test do
   gem 'rspec', '~> 3.4.0'
   gem 'rspec-puppet', '~> 2.4.0'
   gem 'puppetlabs_spec_helper', '~> 1.1.1'
+  gem 'metadata-json-lint', '~> 0.0.11'
   gem 'puppet-blacksmith', '~> 3.3.1'
   gem 'puppet-lint', '~> 1.1.0'
   gem 'puppet-syntax', '~> 2.1.0'
