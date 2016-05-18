@@ -26,8 +26,8 @@ class patch (
 
   $patch_dir = "${::puppet_vardir}/patch"
   $patch_dir_ensure = $ensure ? {
-    absent  => absent,
-    default => directory,
+    'absent' => absent,
+    default  => directory,
   }
 
   file { $patch_dir:

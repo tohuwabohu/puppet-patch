@@ -8,6 +8,7 @@ group :development, :test do
   gem 'puppet-blacksmith', '~> 3.3.1'
   gem 'puppet-lint', '~> 1.1.0'
   gem 'puppet-syntax', '~> 2.1.0'
+  gem 'puppet-lint-unquoted_string-check', '~> 0.2.5'
 end
 
 group :system_tests do
