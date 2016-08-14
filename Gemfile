@@ -11,8 +11,10 @@ group :development, :test do
   gem 'puppet-lint-absolute_classname-check', '~> 0.1'
   gem 'puppet-lint-unquoted_string-check', '~> 0.2'
   gem 'puppet-syntax', '~> 2.1'
+end
 
-  gem 'rest-client', '~> 1.8'  # Ruby 1.9.2 compatible
+group :ruby_19_compatibility do
+  gem 'rest-client', '~> 1.8'
 end
 
 group :system_tests do
