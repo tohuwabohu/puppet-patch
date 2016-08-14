@@ -14,6 +14,7 @@ group :development, :test do
 end
 
 group :ruby_19_compatibility do
+  gem 'json_pure', '~> 1.8'
   gem 'rest-client', '~> 1.8'
 end
 
