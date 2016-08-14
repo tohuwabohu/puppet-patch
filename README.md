@@ -1,5 +1,8 @@
 #patch
 
+[![Puppet Forge](https://img.shields.io/puppetforge/v/tohuwabohu/patch.svg)](https://forge.puppetlabs.com/tohuwabohu/patch)
+[![Build Status](https://travis-ci.org/tohuwabohu/puppet-patch.png?branch=master)](https://travis-ci.org/tohuwabohu/puppet-patch)
+
 ##Overview
 
 Manage and apply diff files on original files using the patch command.
@@ -57,8 +60,6 @@ The module has been tested on the following operating systems. Testing and patch
 * Debian 8.0 (Jessie)
 * Ubuntu 12.04 (Precise Pangolin)
 * Ubuntu 14.04 (Trusty Tahr)
-
-[![Build Status](https://travis-ci.org/tohuwabohu/puppet-patch.png?branch=master)](https://travis-ci.org/tohuwabohu/puppet-patch)
 
 ##Contributing
 
