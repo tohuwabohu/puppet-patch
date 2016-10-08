@@ -1,6 +1,6 @@
 require 'spec_helper_acceptance'
 
-describe 'by default' do
+describe 'patch' do
   let(:manifest) { "class { 'patch': }" }
 
   specify 'should provision with no errors' do

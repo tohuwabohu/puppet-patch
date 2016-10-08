@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe 'patch' do
   let(:title) { 'patch' }
-  let(:facts) { {:puppet_vardir => '/var/lib/puppet'} }
 
   describe 'by default' do
     let(:params) { {} }
