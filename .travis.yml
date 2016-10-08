@@ -23,7 +23,7 @@ matrix:
   - rvm: ruby-head
     env: PUPPET_VERSION="~> 4"
   # Beaker tests
-  - rvm: 2.2
+  - rvm: 1.9.3
     env: BEAKER_set=debian-7-64
     bundler_args: --without development
     script: bundle exec rake beaker
