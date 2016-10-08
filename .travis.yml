@@ -29,8 +29,8 @@ matrix:
     sudo: false
   # Beaker tests
   - rvm: 2.2
-    dist: trusty
     env: BEAKER_set=debian-7-64
     script: bundle exec rake beaker
+    dist: trusty
     services: docker
     sudo: required
