@@ -20,6 +20,7 @@ end
 
 group :system_tests do
   gem 'beaker', '~> 2.47'
+  gem 'beaker-puppet_install_helper', '~> 0.5'
   gem 'beaker-rspec', '~> 5.6'
   gem 'serverspec', '~> 2.31'
 end

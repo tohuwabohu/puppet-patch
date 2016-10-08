@@ -1,3 +1,8 @@
+##2016-05-08 - Release 1.4.0
+###Summary
+
+Add support for Ubuntu 16.04.
+
 ##2016-05-08 - Release 1.3.0
 ###Summary
 
