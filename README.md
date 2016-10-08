@@ -1,7 +1,7 @@
 #patch
 
 [![Puppet Forge](https://img.shields.io/puppetforge/v/tohuwabohu/patch.svg)](https://forge.puppetlabs.com/tohuwabohu/patch)
-[![Build Status](https://travis-ci.org/tohuwabohu/puppet-patch.png?branch=master)](https://travis-ci.org/tohuwabohu/puppet-patch)
+[![Build Status](https://travis-ci.org/tohuwabohu/puppet-patch.svg?branch=master)](https://travis-ci.org/tohuwabohu/puppet-patch)
 
 ##Overview
 
