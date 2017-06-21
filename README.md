@@ -1,13 +1,13 @@
-#patch
+# patch
 
 [![Puppet Forge](https://img.shields.io/puppetforge/v/tohuwabohu/patch.svg)](https://forge.puppetlabs.com/tohuwabohu/patch)
 [![Build Status](https://travis-ci.org/tohuwabohu/puppet-patch.svg?branch=master)](https://travis-ci.org/tohuwabohu/puppet-patch)
 
-##Overview
+## Overview
 
 Manage and apply diff files on original files using the patch command.
 
-##Usage
+## Usage
 
 * Install patch with package settings; this itself doesn't do much. To apply patches, you have to use `patch::file`.
 ```
@@ -52,7 +52,7 @@ patch::directory { '/path/to/target/directory':
 }
 ```
 
-##Limitations
+## Limitations
 
 The module has been tested on the following operating systems. Testing and patches for other platforms are welcome.
 
@@ -61,7 +61,7 @@ The module has been tested on the following operating systems. Testing and patch
 * Ubuntu 14.04 (Trusty Tahr)
 * Ubuntu 16.04 (Xenial Xerus)
 
-##Contributing
+## Contributing
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -69,7 +69,7 @@ The module has been tested on the following operating systems. Testing and patch
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-###Development
+### Development
 
 This project uses rspec-puppet and beaker to ensure the module works as expected and to prevent regressions.
 
