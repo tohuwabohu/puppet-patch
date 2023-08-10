@@ -11,14 +11,13 @@
 # Copyright 2014 Martin Meinhold, unless otherwise noted.
 #
 define patch::directory (
-  $cwd = $title,
+  Stdlib::Unixpath $cwd = $title,
   $diff_content = undef,
   $diff_source = undef,
   $prefix = undef,
   $path = ['/usr/local/bin', '/usr/bin', '/bin'],
   $strip = 0,
 ) {
-  validate_absolute_path($cwd)
 
   require ::patch
 
