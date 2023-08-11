@@ -13,7 +13,7 @@
 class patch::params {
   $ensure = installed
 
-  $package = $::operatingsystem ? {
+  $package = $facts['os']['name'] ? {
     default => 'patch',
   }
 

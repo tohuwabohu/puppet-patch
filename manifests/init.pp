@@ -24,7 +24,7 @@ class patch (
   $manage_package = $patch::params::manage_package,
 ) inherits patch::params {
 
-  $patch_dir = "${::puppet_vardir}/patch"
+  $patch_dir = "${facts['puppet_vardir']}/patch"
   $patch_dir_ensure = $ensure ? {
     'absent' => absent,
     default  => directory,
