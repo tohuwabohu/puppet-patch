@@ -1,7 +1,8 @@
 # patch
 
+[![License](https://img.shields.io/github/license/tohuwabohu/puppet-patch.svg)](https://github.com/tohuwabohu/puppet-patch/blob/master/LICENSE.txt)
 [![Puppet Forge](https://img.shields.io/puppetforge/v/tohuwabohu/patch.svg)](https://forge.puppetlabs.com/tohuwabohu/patch)
-[![Build Status](https://travis-ci.org/tohuwabohu/puppet-patch.svg?branch=master)](https://travis-ci.org/tohuwabohu/puppet-patch)
+[![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/tohuwabohu/patch.svg)](https://forge.puppetlabs.com/tohuwabohu/patch)
 
 ## Overview
 
