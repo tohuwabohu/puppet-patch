@@ -1,6 +1,6 @@
 {
   "name": "tohuwabohu-patch",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "author": "Martin Meinhold",
   "license": "Apache-2.0",
   "summary": "Patch files using diffs",

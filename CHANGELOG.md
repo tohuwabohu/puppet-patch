@@ -1,3 +1,7 @@
+## 2023-08-11 - Release 1.5.0
+
+Improve compatibility with stdlib ([#10](https://github.com/tohuwabohu/puppet-patch/pull/10)).
+
 ## 2016-10-08 - Release 1.4.0
 
 Add support for Ubuntu 16.04.
